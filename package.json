@@ -1,20 +1,28 @@
 {
-  "name": "leavia",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.2"
-  },
-  "devDependencies": {
-    "eslint": "^8",
-    "eslint-config-next": "14.2.2"
-  }
+   "name": "leavia",
+   "version": "0.1.0",
+   "private": true,
+   "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "ts-node src/index.ts",
+      "lint": "next lint",
+      "typeorm": "typeorm-ts-node-esm"
+   },
+   "dependencies": {
+      "next": "14.2.2",
+      "pg": "^8.4.0",
+      "react": "^18",
+      "react-dom": "^18",
+      "reflect-metadata": "^0.1.13",
+      "typeorm": "0.3.20"
+   },
+   "devDependencies": {
+      "@types/node": "^16.11.10",
+      "@types/react": "18.2.79",
+      "eslint": "^8",
+      "eslint-config-next": "14.2.2",
+      "ts-node": "10.9.1",
+      "typescript": "4.5.2"
+   }
 }
